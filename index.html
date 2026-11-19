@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Romeo A. Guillermo III | IT Specialist</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bgblur" aria-hidden="true"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 5h18v14H3z M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6c.6-1 1.9-1.9 3.8-1.9 4 0 4.9 2.6 4.9 6V21h-4v-5.2c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21h-4z"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+</svg>
+
+<nav>
+  <a class="logo" href="#home">R<b>.</b>GUILLERMO<b>.</b>III</a>
+  <div class="links">
+    <a href="#home" data-p="home">Home</a>
+    <a href="#portfolio" data-p="portfolio">Portfolio</a>
+    <a href="#contact" data-p="contact">Contacts</a>
+    <a href="#projects" data-p="projects">My Projects</a>
+    <a href="#pictures" data-p="pictures">Pictures</a>
+  </div>
+</nav>
+
+<main>
+<!-- HOME -->
+<section class="page" id="home">
+  <div class="hero">
+    <div>
+      <span class="tag"><span class="dot"></span>Open to opportunities</span>
+      <h1>Romeo A. Guillermo III</h1>
+      <p>IT specialist and BSIT student from Roxas City. I install fiber, configure networks, repair hardware, and build web and computer-vision projects that solve real problems.</p>
+      <a class="btn" href="#portfolio">Learn about me more</a>
+      <div class="stats">
+        <div><b>2+ yrs</b><span>ICT student assistant</span></div>  
+        <div><b>Hardware Specialist</b><span>Computer assembly, diagnostics, repairs</span></div>
+        <div><b>Web Developer</b><span>SQL, Django, web</span></div>
+      </div>
+    </div>
+    <!-- Replace the src below with your own photo, e.g. src="me.jpg" -->
+    <div class="ring"><div class="in"><img id="avatar" alt="Portrait of Romeo A. Guillermo III" src="images/Profile.png"></div></div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="page" id="portfolio">
+  <div class="stage">
+    <article class="prof">
+      <header class="p-head">
+        <div class="p-av"><img id="avatar2" alt="" src=""></div>
+        <div>
+          <h2>ROMEO A GUILLERMO III</h2>
+          <div class="role">IT SPECIALIST | NETWORKING &amp; HARDWARE SUPPORT</div>
+          <div class="meta"><span class="ci"><svg class="ic"><use href="#i-pin"/></svg>Roxas City, Capiz, Philippines</span><span class="ci"><svg class="ic"><use href="#i-mail"/></svg>romeoguillermoit10@gmail.com</span><span class="ci"><svg class="ic"><use href="#i-phone"/></svg>+63 9097496456</span><span class="ci"><svg class="ic"><use href="#i-linkedin"/></svg><a href="https://www.linkedin.com/in/roms/" target="_blank" rel="noopener">LinkedIn</a></span><span class="ci"><svg class="ic"><use href="#i-github"/></svg><a href="https://github.com/xEnjuAi" target="_blank" rel="noopener">GitHub</a></span></div>
+        </div>
+      </header>
+
+      <div class="p-body">
+        <div class="p-main">
+          <div class="blk"><h3>About Me</h3>
+            <p>Motivated IT student with hands-on experience in network configuration, fiber-optic installation, hardware troubleshooting, PC maintenance,
+               and system deployment, complemented by foundational programming, database management, and practical problem-solving skills.</p></div>
+
+          <div class="blk"><h3>PROFESSIONAL &amp; VOLUNTEER EXPERIENCE</h3>
+            <div class="job"><h4>ICT Student Assistant / Assistant Auditor</h4><em>Filamer Christian University, Roxas City | May 2024 – Present</em>
+              <ul>
+                <li>Assist with fiber-optic installation, LAN cabling, router setup, and network configuration to support reliable connectivity and university infrastructure.</li>
+                <li>Support IP addressing, subnetting, VLAN and switch configuration, basic firewall setup, network monitoring, and network troubleshooting as assigned.</li>
+                <li>Perform cable termination and testing, computer diagnostics, hardware troubleshooting, computer assembly and disassembly, and hardware repairs.</li>
+                <li>Install and reformat operating systems, configure systems after installation, and perform preventive maintenance to help maintain reliable computer operation.</li>
+                <li>Support community extension programs that promote computer literacy among students from other schools and barangay personnel.</li>
+              </ul></div>
+            <div class="job"><h4>ERU Red Cross Volunteer</h4><em>Philippine Red Cross, Roxas City | July 2026 – Present</em>
+              <ul>
+                <li>Deploy to first aid stations during events and emergency operations, assisting individuals who are injured or feeling ill.</li>
+                <li>Assess basic patient conditions and provide appropriate first aid within the scope of training and certification.</li>
+                <li>Assist with patient monitoring, emergency response coordination, and referral or transfer to advanced medical care when necessary.</li>
+              </ul></div>
+          </div>
+
+          <div class="blk"><h3>EDUCATION</h3>
+            <div class="job"><h4>Bachelor of Science in Information Technology</h4><em>Filamer Christian University, Roxas City | August 2024 – Present</em></div>
+            <div class="job"><h4>Technical-Vocational-Livelihood (TVL) – Information and Communications Technology</h4><em>Filamer Christian University, Roxas City | August 2023 – May 2024</em></div>
+          </div>
+        </div>
+
+        <aside class="p-side">
+          <div class="blk"><h3>TECHNICAL SKILLS</h3>
+          
+            <!-- Networking & Infrastructure -->
+            <div class="skill-g"><b>Networking &amp; Infrastructure</b><div class="chips"><span class="chip">Fiber-optic installation</span>
+              <span class="chip">LAN cabling</span><span class="chip">Router configuration</span><span class="chip">IP addressing &amp; subnetting</span>
+              <span class="chip">VLANs</span><span class="chip">Switch configuration</span><span class="chip">Basic firewall</span>
+              <span class="chip">Network monitoring</span><span class="chip">Cable termination &amp; testing</span><span class="chip">Network troubleshooting</span>
+            </div></div>
+           
+            <!-- Hardware & IT Support -->
+            <div class="skill-g"><b>Hardware &amp; IT Support</b><div class="chips"><span class="chip">PC assembly &amp; disassembly</span>
+              <span class="chip">Diagnostics</span><span class="chip">Hardware repair</span><span class="chip">Preventive maintenance</span>
+              <span class="chip">OS installation &amp; reformatting</span><span class="chip">Driver installation</span><span class="chip">Technical support</span>
+            </div></div>
+           
+            <!-- Operating Systems -->
+            <div class="skill-g"><b>Operating Systems</b><div class="chips"><span class="chip">Windows 10/11</span></div></div>
+            
+            <!-- Programming & Web -->
+            <div class="skill-g"><b>Programming &amp; Web</b><div class="chips"><span class="chip">Python</span><span class="chip">SQL</span>
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div></div>
+           
+              <!-- Tools & Version Control -->
+            <div class="skill-g"><b>Tools &amp; Version Control</b><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Visual Studio Code</span><span class="chip">MS Office</span>
+              <span class="chip">Canva</span><span class="chip">Photoshop</span><span class="chip">Figma</span><span class="chip">n8n</span></div></div>
+            
+            <!-- Database -->
+            <div class="skill-g"><b>Database</b><div class="chips"><span class="chip">SQL queries</span><span class="chip">Database management concepts</span>
+            <span class="chip">Logistics DBMS project</span></div></div>
+
+            <!-- Additional Skills -->
+            <div class="skill-g"><b>Additional Skills</b><div class="chips"><span class="chip">Problem-solving</span><span class="chip">Teamwork</span>
+              <span class="chip">Technical communication</span><span class="chip">Critical thinking</span><span class="chip">Adaptability</span>
+              <span class="chip">Willingness to learn</span><span class="chip">Cooperation</span></div></div>
+          </div>
+
+          
+          <div class="blk"><h3>CERTIFICATIONS &amp; ELIGIBILITY</h3>
+            <div class="badge"><i>&#9733;</i>Civil Service Professional Eligibility</div>
+            <div class="badge"><i>&#10010;</i>Basic Life Support (BLS)</div>
+            <div class="badge"><i>&#10010;</i>First Aid</div>
+          </div>
+        </aside>
+      </div>
+
+
+      <div class="cta-row"><a class="btn" href="#projects">My Projects</a>
+      <a class="btn" href="#contacts">Contact Me</a>
+      <a class="btn" href="#pictures">Pictures</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="page" id="projects">
+  <h1 class="pg-title" style="font-size:clamp(28px,4vw,44px);text-shadow:none">Technical Projects</h1>
+  <p class="pg-sub">Selected work in computer vision and web systems.</p>
+
+<!-- PROJECT 1 -->
+<div class="pj">
+  <div class="car" data-car>
+    <div class="track">
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/11.png" alt="...">
+        <div class="scap"><span>Shows new, outgoing, low-stock and out-of-stock items.</span><b>Dashboard</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/12.png" alt="...">
+        <div class="scap"><span>Authorizes users that access the system.</span><b>User Page</b></div></div>
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/13.png" alt="...">
+        <div class="scap"><span>Displays a list of manufacturers.</span><b>Manufacturers Directory</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/14.png" alt="...">
+        <div class="scap"><span>Displays a list of available brands.</span><b>Brands Directory</b></div></div>
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/15.png" alt="...">
+        <div class="scap"><span>Organizes items into different categories.</span><b>Item Categories</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/16.png" alt="...">
+        <div class="scap"><span>Manages the inventory levels and tracking.</span><b>Inventory</b></div></div>
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/17.png" alt="...">
+        <div class="scap"><span>Checkout screen for items leaving inventory.</span><b>Checkout</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/6.png" alt="...">
+        <div class="scap"><span>Checkout screen for items leaving inventory.</span><b>Database</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/6.png" alt="...">
+        <div class="scap"><span>Displays a login screen for user authentication.</span><b>Login Screen</b></div></div>
+    </div>
+    <button class="arr prev" aria-label="Previous">&#8249;</button>
+    <button class="arr next" aria-label="Next">&#8250;</button>
+    <div class="dots"></div>
+  </div>
+  <article class="card">
+    <h3>Inventory Management System</h3>
+    <div class="chips"><span class="chip">MYSQL</span><span class="chip">Django</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+    <span class="chip">PHP</span></div>
+    <ul>
+      <li>Developed a comprehensive inventory management system with real-time tracking capabilities.</li>
+      <li>Implemented a checkout system and an interactive dashboard displaying new, outgoing, low-stock, and out-of-stock items.</li>
+      <li>Utilized SQL database operations to support structured data storage, retrieval, and inventory status monitoring.</li>
+      <li>Added a search functionality to enable users to quickly find specific items in the inventory.</li>
+      <li>Implemented user authentication and authorization features to ensure secure access to the system.</li>
+    </ul>
+  </article>  
+</div>
+
+<!-- PROJECT 2 -->
+<div class="pj">
+  <div class="car" data-car>
+    <div class="track">
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/7.png" alt="...">
+        <div class="scap"><span>Scans QR codes for attendance tracking.</span><b>QR Attendance Scanner</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/8.png" alt="...">
+        <div class="scap"><span>Displays an interface for tracking faces and hands.</span><b>Face and Hand Tracking Interface</b></div></div>
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/9.png" alt="...">
+        <div class="scap"><span>Controls display and interactive elements through hand gestures.</span><b>Gesture Control System</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/10.png" alt="...">
+        <div class="scap"><span>Displays a detector for tracking faces and hands.</span><b>Face and Hand Tracking detector</b></div></div>
+    </div>
+    <button class="arr prev" aria-label="Previous">&#8249;</button>
+    <button class="arr next" aria-label="Next">&#8250;</button>
+    <div class="dots"></div>
+  </div>
+  <article class="card">
+    <h3>IOT Hand and Face Tracking and QR Code Scanning</h3>
+    <div class="chips"><span class="chip">Python</span><span class="chip">MediaPipe</span><span class="chip">OpenCV</span></div>
+    <ul>
+      <li>Developed a IOT-based solution for real-time face and hand tracking.</li>
+      <li>Implemented Multiple interactive features for enhanced user experience.</li>
+      <li>Designed and implemented a user-friendly interface for monitoring and controlling the tracking system.</li>
+      <li>Implemented a QR code scanning feature for attendance tracking.</li>
+      <li>Utilized Python and MediaPipe for implementing the tracking algorithms.</li>
+    </ul>
+  </article>
+
+<!-- PROJECT 3 -->
+<div class="pj">
+  <div class="car" data-car>
+    <div class="track">
+      <div class="slide ph" style="--c1:#312e81;--c2:#0f172a"><img src="images/1.png" alt="...">
+        <div class="scap"><span>The web of the flow that recieves, process, and outputs data</span><b>Process Flow</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/2.png" alt="...">
+        <div class="scap"><span>The Node that handles user authentication</span><b>Login Flow</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/3.png" alt="...">
+        <div class="scap"><span>Login Page for the Admin</span><b>Login page</b></div></div>
+      <div class="slide ph" style="--c1:#164e63;--c2:#1e1b4b"><img src="images/4.1.png" alt="...">
+        <div class="scap"><span>Stored Attendances, Applicant data, Volunteer Job listings, and the Admin data.</span><b>Database and Statistics</b></div></div>
+    </div>
+    <button class="arr prev" aria-label="Previous">&#8249;</button>
+    <button class="arr next" aria-label="Next">&#8250;</button>
+    <div class="dots"></div>
+  </div>
+  <article class="card">
+    <h3>n8n automated Volunteer Application data flow</h3>
+    <div class="chips"><span class="chip">n8n</span><span class="chip">Js</span><span class="chip">Cloud</span><span class="chip">Spread Sheets</span><span class="chip">HTML</span><span class="chip">JavaScript</span></div>
+    <ul>
+      <li>Developed a web-based automation workflow for managing volunteer applications.</li>
+      <li>Implemented a login flow for admin users and a registration flow for volunteers.</li>
+      <li>Added a attendance tracking feature to monitor volunteer hours and deny duplicate submissions for attendance and applications.</li>
+      <li>Integrated with a spreadsheet-based system for data management and reporting.</li>
+      <li>Automated Email notifications for admin and users.</li>
+    </ul>
+  </article>
+</div>
+</section>
+</div>
+</section>
+
+
+
+<!-- CONTACT -->
+<section class="page" id="contact">
+  <h1 class="pg-title">Contacts</h1>
+  <p class="pg-sub">Available for IT support, networking, and internship opportunities.</p>
+  <div class="contact">
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-mail"/></svg>Email</div><div class="v"><a href="mailto:romeoguillermoit10@gmail.com">romeoguillermoit10@gmail.com</a></div></div>
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-mail"/></svg>Email</div><div class="v"><a href="mailto:iamsooyolo@gmail.com">iamsooyolo@gmail.com</a></div></div>
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-phone"/></svg>Phone</div><div class="v">+63 9097496456</div></div>
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-pin"/></svg>Location</div><div class="v">Roxas City, Capiz, Philippines</div></div>
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-linkedin"/></svg>LinkedIn</div><div class="v"><a href="https://www.linkedin.com/in/roms/" target="_blank" rel="noopener">linkedin.com/in/roms</a></div></div>
+    <div class="card"><div class="k"><svg class="ic"><use href="#i-github"/></svg>GitHub</div><div class="v"><a href="https://github.com/xEnjuAi" target="_blank" rel="noopener">github.com/xEnjuAi</a></div></div>
+  </div>
+  <form class="card" id="cf">
+    <h3>Send a message</h3>
+    <input name="n" placeholder="Your name" required aria-label="Your name">
+    <input name="e" type="email" placeholder="Your email" required aria-label="Your email">
+    <textarea name="m" rows="5" placeholder="How can I help?" required aria-label="Message"></textarea>
+    <button class="btn" type="submit" style="justify-self:start">Send message</button>
+  </form>
+</section>
+<!-- PICTURES -->
+<section class="page" id="pictures">
+  <h1 class="pg-title">Pictures</h1>
+  <p class="pg-sub">Certificates, achievements, and moments. Select a picture to open it.</p>
+  <!-- To use your own image, set data-img="your-file.jpg" on a picture. Leave it empty to show a placeholder. -->
+  <div class="album"><h2>Activities <small>3 items</small></h2><div class="grid">
+    <button class="fig" data-img="images/w1.jpg" data-title="WordCamp 2026" data-desc="Ilo-Ilo Convention Center"></button>
+    <button class="fig" data-img="images/w.jpg" data-title="WordCamp 2026" data-desc="Web Hosting Seminar and Training"></button>
+    <button class="fig" data-img="images/f.jpg" data-title="Basic Life Support (BLS)" data-desc="Certification in basic life support for emergency response."></button>
+    <button class="fig" data-img="images/l.jpg" data-title="Logo Making Contest" data-desc="Aquired 1st place in the JHS Logo Making Contest which is the current logo of the department."></button>
+  </div></div>
+  <div class="album"><h2>Certificates <small>3 items</small></h2><div class="grid">
+    <button class="fig" data-img="" data-title="Loyalty Awardee" data-desc="Recognition for loyal service and commitment."></button>
+    <button class="fig" data-img="" data-title="Active Praise Team Member" data-desc="Active member of the praise team."></button>
+  </div></div>
+  <div class="album"><h2>Others <small>3 items</small></h2><div class="grid">
+    <button class="fig" data-img="images/pc.jpg" data-title="My own self built PC" data-desc="From old second-hand materials to a fully functional gaming rig built in a tight budget."></button>
+    <button class="fig" data-img="" data-title="Computer-literacy program" data-desc="Community extension program for students and barangay personnel."></button>
+    <button class="fig" data-img="" data-title="Red Cross deployment" data-desc="First aid station duty as an ERU volunteer."></button>
+  </div></div>
+</section>
+</main>
+
+<div id="viewer" role="dialog" aria-modal="true" aria-label="Picture viewer" hidden>
+  <button class="v-n v-p" aria-label="Previous picture">&#8249;</button>
+  <div class="v-box">
+    <button class="v-x" aria-label="Close viewer">&times;</button>
+    <img id="vimg" alt="">
+    <div class="v-cap"><small id="valbum"></small><h3 id="vtitle"></h3><p id="vdesc"></p></div>
+  </div>
+  <button class="v-n v-nx" aria-label="Next picture">&#8250;</button>
+</div>
+
+<footer>&copy; 2026 Romeo A. Guillermo III. Built with HTML, CSS and JavaScript.</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
