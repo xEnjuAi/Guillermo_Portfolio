@@ -1,5 +1,5 @@
 // Routing by hash
-var pages=['home','portfolio','contact','projects','pictures'];
+var pages=['home','portfolio','contact','projects','pictures','documents'];
 function route(){
   var h=(location.hash||'#home').slice(1);if(pages.indexOf(h)<0)h='home';
   pages.forEach(function(p){document.getElementById(p).classList.toggle('on',p===h)});
@@ -145,3 +145,16 @@ var WEB3FORMS_KEY='1cf1f1b7-c8a7-40af-ae84-93bebd49b4ff';
     render();
   });
 })();
+
+// Document tabs (Resume / Cover Letter)
+document.querySelectorAll('.doc-tab').forEach(function(b){
+  b.onclick=function(){
+    document.querySelectorAll('.doc-tab').forEach(function(t){
+      t.classList.toggle('on',t===b);
+      t.setAttribute('aria-selected',t===b);
+    });
+    document.querySelectorAll('.doc-panel').forEach(function(p){
+      p.classList.toggle('on',p.id==='doc-'+b.dataset.doc);
+    });
+  };
+});

@@ -26,6 +26,7 @@
     <a href="#contact" data-p="contact">Contacts</a>
     <a href="#projects" data-p="projects">My Projects</a>
     <a href="#pictures" data-p="pictures">Pictures</a>
+    <a href="#documents" data-p="documents">Documents</a>
   </div>
 </nav>
 
@@ -36,15 +37,22 @@
     <div>
       <span class="tag"><span class="dot"></span>Open to opportunities</span>
       <h1>Romeo A. Guillermo III</h1>
-      <p>IT specialist and BSIT student from Roxas City. I install fiber, configure networks, repair hardware, and build web and computer-vision projects that solve real problems.</p>
-      <a class="btn" href="#portfolio">Learn about me more</a>
+        <div class="role-line">Junior Network &amp; IT Support Specialist</div>
+        <p>I keep networks and computers running reliably, from fiber and LAN setup to hardware repair, and I build web tools that make IT work easier.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#portfolio">Learn about me more</a>
+          <a class="btn" href="docs/Guillermo_Romeo_ATSResume.pdf" download>Download Resume (PDF)</a>
+          <div class="soc">
+            <a href="https://www.linkedin.com/in/roms/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+            <a href="https://github.com/xEnjuAi" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+          </div>
+        </div>
       <div class="stats">
         <div><b>2+ yrs</b><span>ICT student assistant</span></div>  
         <div><b>Hardware Specialist</b><span>Computer assembly, diagnostics, repairs</span></div>
         <div><b>Web Developer</b><span>SQL, Django, web</span></div>
       </div>
     </div>
-    <!-- Replace the src below with your own photo, e.g. src="me.jpg" -->
     <div class="ring"><div class="in"><img id="avatar" alt="Portrait of Romeo A. Guillermo III" src="images/Profile.png"></div></div>
   </div>
 </section>
@@ -257,7 +265,7 @@
 <!-- CONTACT -->
 <section class="page" id="contact">
   <h1 class="pg-title">Contacts</h1>
-  <p class="pg-sub">Available for IT support, networking, and internship opportunities.</p>
+  <p class="pg-sub">Open for IT Specialist, Networking, and Internship Opportunities.</p>
   <div class="contact">
     <div class="card"><div class="k"><svg class="ic"><use href="#i-mail"/></svg>Email</div><div class="v"><a href="mailto:romeoguillermoit10@gmail.com">romeoguillermoit10@gmail.com</a></div></div>
     <div class="card"><div class="k"><svg class="ic"><use href="#i-mail"/></svg>Email</div><div class="v"><a href="mailto:iamsooyolo@gmail.com">iamsooyolo@gmail.com</a></div></div>
@@ -304,6 +312,35 @@
     <button class="fig" data-img="images/medal.jfif" data-title="Bronze in WVRAA 2018" data-desc="Secured bronze medal in the WVRAA 2018 competition in Shotput."></button>
   </div></div>
 </section>
+
+<!-- DOCUMENTS -->
+<section class="page" id="documents">
+  <h1 class="pg-title">Documents</h1>
+  <p class="pg-sub">Technical writing samples from my coursework: my resume and cover letter.</p>
+  <div class="doc-tabs" role="tablist">
+    <button type="button" class="doc-tab on" data-doc="resume" role="tab" aria-selected="true">Resume</button>
+    <button type="button" class="doc-tab" data-doc="cover" role="tab" aria-selected="false">Cover Letter</button>
+  </div>
+
+  <div class="doc-panel on" id="doc-resume">
+    <object class="doc-view" data="docs/Guillermo_Romeo_ATSResume.pdf#view=FitH" type="application/pdf" aria-label="Resume PDF"></object>
+    <p class="doc-mobile card">PDF previews are limited on phones. Use the buttons below to open or download the resume.</p>
+    <div class="doc-actions">
+      <a class="btn" href="docs/Guillermo_Romeo_ATSResume.pdf" download>Download PDF</a>
+      <a class="btn ghost" href="docs/Guillermo_Romeo_ATSResume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+  </div>
+
+  <div class="doc-panel" id="doc-cover">
+    <object class="doc-view" data="docs/Guillermo_Cover_Letter.pdf#view=FitH" type="application/pdf" aria-label="Cover letter PDF"></object>
+    <p class="doc-mobile card">PDF previews are limited on phones. Use the buttons below to open or download the cover letter.</p>
+    <div class="doc-actions">
+      <a class="btn" href="docs/Guillermo_Cover_Letter.pdf" download>Download PDF</a>
+      <a class="btn ghost" href="docs/Guillermo_Cover_Letter.pdf" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <div id="viewer" role="dialog" aria-modal="true" aria-label="Picture viewer" hidden>
